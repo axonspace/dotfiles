@@ -17,7 +17,7 @@ set autoread		" bei externer änderung neu laden
 set textwidth=80	" eingabe maximal 80 zeichen lang
 " set cindent		" indent nach C-Standart
 
-set ts=4		" TabSpace size
+set ts=2		" TabSpace size
 " set expandtab		" Tab to WhiteSpace convertion
 
 set directory=~/.vim/tmp
