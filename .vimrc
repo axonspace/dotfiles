@@ -13,7 +13,7 @@ set smartindent
 set autoindent
 
 set autoread		" bei externer änderung neu laden
-" set nu!		" line numbering
+set nu!		" line numbering
 set textwidth=80	" eingabe maximal 80 zeichen lang
 " set cindent		" indent nach C-Standart
 
