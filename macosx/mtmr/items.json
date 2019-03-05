@@ -1,6 +1,15 @@
 [
   { "type": "escape", "align": "left" },
-  { "type": "exitTouchbar", "width": 44, "align": "left" },
+  {
+    "type": "staticButton",
+    "align": "left",
+		"title": "T",
+    "action": "appleScript",
+    "actionAppleScript": {
+      "inline": "tell application \"Terminal\"\ractivate\rtell application \"System Events\" to keystroke \"n\" using {command down}\rend tell"
+    },
+    "width": 36
+  },
   { "type": "dock", "align": "left", "width": 320 },
   {
     "type": "appleScriptTitledButton",
@@ -41,5 +50,7 @@
   { "type": "network", "width": 82, "align": "right", "bordered": false },
   { "type": "displaySleep", "width": 44, "align": "right", "bordered": false },
   { "type": "dnd", "width": 44, "align": "right" },
-  { "type": "pomodoro", "restTime": 900, "workTime": 3600, "width": 128, "align": "right", "bordered": false }
+  { "type": "pomodoro", "restTime": 900, "workTime": 3600, "width": 128,
+					"align": "right", "bordered": false },
+  { "type": "exitTouchbar", "width": 44, "align": "right" }
 ]
