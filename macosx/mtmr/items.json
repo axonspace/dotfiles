@@ -10,7 +10,6 @@
     },
     "width": 36
   },
-  { "type": "dock", "align": "left", "width": 320 },
   {
     "type": "appleScriptTitledButton",
     "source": {
